@@ -128,6 +128,7 @@ plt.xlabel('Pull Count')
 plt.ylabel('Minutes')
 
 plt.savefig('graph.jpg')
+plt.show()
 
 print(f"------------------------------\n"
       f"Parsing done! Graph output to 'graph.jpg'")
