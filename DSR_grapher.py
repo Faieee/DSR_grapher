@@ -96,13 +96,13 @@ plt.figure(figsize=(18, 10))
 plt.scatter(pullSet[0], pullTimeSeconds, color=phaseColor, s=25)
 
 plt.xticks(np.arange(0, len(pullSet[0]) + 1, 100))
-plt.yticks(np.arange(0, 1081, 120), np.arange(0, 19, 2))
+plt.yticks(np.arange(0, 1201, 120), np.arange(0, 21, 2))
 
 plt.xlim(0, len(pullSet[0]) * 1.01)
-plt.ylim(0, 1080)
+plt.ylim(0, 1200)
 
 # background colors for phases, this needs to be manually set
-phaseTimings = {1: 205, 2: 345, 3: 440, 4: 482, 5: 685, 6: 900, 7: 1080}
+phaseTimings = {1: 205, 2: 345, 3: 440, 4: 482, 5: 685, 6: 900, 7: 1200}
 
 # set the background color of the phases
 for i, phase in enumerate(phaseTimings):
